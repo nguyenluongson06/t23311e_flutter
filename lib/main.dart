@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:t2311e_demo/component-basic/expand_widget_lab.dart';
 import 'package:t2311e_demo/lab1/BaseCard.dart';
 import 'package:t2311e_demo/screens/login_screen.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginScreen()
+      home: FlexibleLab1()
       // home:  AppBarDemo(),
     );
   }
